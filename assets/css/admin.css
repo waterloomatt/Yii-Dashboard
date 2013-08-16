@@ -1,0 +1,73 @@
+/*
+    Document   : admin
+    Created on : 16-May-2013, 6:05:56 PM
+    Author     : Matt Skelton
+    Description:
+        This style sheetsheet styles the entire admin module.
+*/
+
+/*
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+body
+{
+    margin: 0;
+    padding: 0;
+    color: #555;
+    font: normal 10pt Arial,Helvetica,sans-serif;
+    background: #EFEFEF;
+}
+
+span#stripe {
+    z-index: -1;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    height: 200px;
+    width: 100%;
+    background: url(../img/darkdenim3.png) #333333 repeat;
+}
+
+#page
+{
+    margin-bottom: 5px;
+    background: white;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-box-shadow: 0 0px 5px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0 0px 5px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0px 8px 1px rgba(0, 0, 0, 0.15);
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+#header
+{
+    margin: 0;
+    padding: 0;
+    background-color: grey;
+}
+
+#content
+{
+    /*padding: 20px;*/
+}
+
+#sidebar
+{
+
+    background-color: #EFEFEF;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+#footer
+{
+    padding: 10px 0px;
+    font-size: 0.8em;
+    text-align: center;
+    border-top: 1px solid #CCCCCC;
+}
